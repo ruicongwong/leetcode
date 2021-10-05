@@ -1,7 +1,6 @@
 package backtracking;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 /*
     给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
@@ -23,7 +22,7 @@ import java.util.List;
 
     说明：尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
      */
-public class Lc17 {
+public class LetterCombinationsOfAPhoneNumber {
 }
 
 

@@ -18,7 +18,7 @@ import java.util.List;
     [1,4],
     ]
  */
-public class Lc77 {
+public class  Combinations {
     public static void main(String[] args) {
         Solution77 solution77 = new Solution77();
         List<List<Integer>> combine = solution77.combine(4, 2);

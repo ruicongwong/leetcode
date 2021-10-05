@@ -14,7 +14,7 @@ import java.util.List;
 
     示例 2: 输入: k = 3, n = 9 输出: [[1,2,6], [1,3,5], [2,3,4]]
  */
-public class Lc216 {
+public class CombinationSumIII {
 }
 
 class Solution216 {
