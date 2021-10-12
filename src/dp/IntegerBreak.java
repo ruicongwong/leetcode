@@ -15,7 +15,7 @@ package dp;
     解释: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36。
     说明: 你可以假设 n 不小于 2 且不大于 58。
  */
-public class Lc343 {
+public class IntegerBreak {
     public static void main(String[] args) {
 
     }
