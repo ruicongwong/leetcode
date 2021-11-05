@@ -4,7 +4,7 @@ public class JumpGame {
 
 }
 
-class Solution {
+class Solution55 {
     public boolean canJump(int[] nums) {
         if (nums.length == 1) return true;
         int index = 0;
