@@ -6,7 +6,7 @@ public class CanCompleteCircuit {
 }
 
 
-class Solution_134 {
+class Solution134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int gasSum = IntStream.of(gas).sum();
         int costSum = IntStream.of(cost).sum();
