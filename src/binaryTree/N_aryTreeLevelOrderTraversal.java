@@ -7,34 +7,34 @@ import java.util.List;
 public class N_aryTreeLevelOrderTraversal {
 }
 
-class Node {
+class MulNode {
     public int val;
-    public List<Node> children;
+    public List<MulNode> children;
 
-    public Node() {}
+    public MulNode() {}
 
-    public Node(int _val) {
+    public MulNode(int _val) {
         val = _val;
     }
 
-    public Node(int _val, List<Node> _children) {
+    public MulNode(int _val, List<MulNode> _children) {
         val = _val;
         children = _children;
     }
 };
 
 class Solution429 {
-    public List<List<Integer>> levelOrder(Node root) {
+    public List<List<Integer>> levelOrder(MulNode root) {
         ArrayList<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;
-        ArrayDeque<Node> queue = new ArrayDeque<>();
+        ArrayDeque<MulNode> queue = new ArrayDeque<>();
         queue.add(root);
         while (!queue.isEmpty()){
             int n = queue.size();
             ArrayList<Integer> path = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                Node node = queue.poll();
-                for (Node child : node.children) {
+                MulNode node = queue.poll();
+                for (MulNode child : node.children) {
                     if (child != null) {
                         queue.add(child);
                     }
